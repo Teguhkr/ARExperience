@@ -1,0 +1,180 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* Root Variables */
+:root {
+    --header-height: 3.5rem;
+
+    /* Colors */
+    --first-hue: 620;
+    --sat: 66%;
+    --lig: 75%;
+    --second-hue: 219;
+    --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+    --first-color-alt: hsl(var(--first-hue), var(--sat), 61%);
+    --title-color: hsl(var(--second-hue), 15%, 95%);
+    --text-color: hsl(var(--second-hue), 8%, 75%);
+    --text-color-light: hsl(var(--second-hue), 4%, 55%);
+    --body-color: hsl(var(--second-hue), 48%, 8%);
+    --container-color: hsl(var(--second-hue), 32%, 12%);
+
+    /* Font and typography */
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 1.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --tiny-font-size: .625rem;
+
+    /* Font weight */
+    --font-medium: 500;
+    --font-semibold: 600;
+
+    /* z index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: var(--body-font);
+    background: var(--body-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    transition: .4s;
+}
+
+.splash, .logo-screen, .main-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.splash {
+    background: linear-gradient(135deg, hsl(var(--first-hue), var(--sat), var(--lig)), hsl(var(--second-hue), 90%, 72%));
+    animation: fadeOut 4s ease-out forwards;
+}
+
+.splash .content {
+    animation: float 4s ease-in-out infinite;
+}
+
+.logo-screen {
+    display: none;
+    background: transparent;
+    animation: hologramFadeIn 1.5s ease-out forwards;
+}
+
+.logo-container {
+    margin: 20px 0;
+}
+
+.logo {
+    width: 170px; 
+    height: auto;
+    cursor: pointer;
+    animation: hologramEffect 2s infinite;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.main-content {
+    display: none;
+    background: var(--body-color);
+    color: var(--text-color);
+}
+
+.show {
+    display: flex;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        z-index: 10;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes hologramFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes hologramEffect {
+    0% {
+        filter: brightness(0.8) blur(1px);
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        filter: brightness(1.5) blur(0);
+        transform: translate3d(0, -10px, 10px);
+    }
+    100% {
+        filter: brightness(0.8) blur(1px);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes scaleOut {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(3);
+        opacity: 0;
+    }
+}
