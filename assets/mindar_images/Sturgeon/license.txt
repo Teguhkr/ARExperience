@@ -1,0 +1,11 @@
+Model Information:
+* title:	Model 66A - Atlantic Sturgeon
+* source:	https://sketchfab.com/3d-models/model-66a-atlantic-sturgeon-ffeabdae926d4cf798cd82da55ebd222
+* author:	DigitalLife3D (https://sketchfab.com/DigitalLife3D)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Model 66A - Atlantic Sturgeon" (https://sketchfab.com/3d-models/model-66a-atlantic-sturgeon-ffeabdae926d4cf798cd82da55ebd222) by DigitalLife3D (https://sketchfab.com/DigitalLife3D) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
