@@ -210,7 +210,7 @@ body.light-theme {
 }
 
 .section {
-  padding: 4.5rem 0 1rem;
+  padding: 4.5rem 0 10rem;
 }
 
 .section__title, 
@@ -226,7 +226,7 @@ body.light-theme {
 
 .section__subtitle {
   display: block;
-  padding-bottom: 1.5rem;
+  padding-bottom: 3.5rem;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
@@ -475,6 +475,7 @@ body.light-theme {
 
 .about__data {
   text-align: center;
+  justify-self: center;
 }
 
 .about__info {
@@ -541,10 +542,12 @@ body.light-theme {
   transition: color 0.3s;
 }
 
+#atas {
+margin-top: 1.8rem;
+}
 
-.about__wrapper {
-    align-items: center;
-    flex-direction: column;
+#bawah{
+margin-bottom: 1.8rem;
 }
 
 /*=============== SKILLS ===============*/
@@ -612,12 +615,12 @@ body.light-theme {
 
 /*=============== SERVICES ===============*/
 #mark {
-margin-bottom: 6.3rem;
+margin-bottom: 3.5rem;
 }
 
 #services {
   padding-top: 9.5rem;
-  padding-bottom: 18rem;
+  padding-bottom: 1rem;
 }
 
 .services__container {
@@ -1169,11 +1172,11 @@ margin-bottom: 6.3rem;
   }
 
   .section {
-    padding: 6.5rem 0 1rem;
+    padding: 6.5rem 0 12rem;
   }
 
   .section__title {
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .nav {

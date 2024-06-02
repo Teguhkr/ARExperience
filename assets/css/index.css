@@ -68,12 +68,12 @@ body, html {
 }
 
 .splash {
-    background: linear-gradient(135deg, hsl(var(--first-hue), var(--sat), var(--lig)), hsl(var(--second-hue), 90%, 72%));
-    animation: fadeOut 4s ease-out forwards;
+    background: linear-gradient(135deg, #2a2a72, #b195e9);
+    animation: fadeOut 3s ease-out forwards;
 }
 
 .splash .content {
-    animation: float 4s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
 }
 
 .logo-screen {
@@ -106,6 +106,39 @@ body, html {
 
 .show {
     display: flex;
+}
+
+.ar-text {
+    margin-top: -20px;
+    font-size: 1.5em;
+    opacity: 0;
+    animation: arTextEffect 2s infinite;
+    transition: opacity 0.3s ease;
+}
+.ar-text:hover{
+    cursor:default;
+}
+
+#logo-screen.show .ar-text {
+    opacity: 1;
+}
+
+@keyframes arTextEffect {
+    0% {
+        opacity: 0.8;
+        transform: translate3d(0, 0, 0);
+        text-shadow: 0 0 5px rgba(177, 149, 233, 0.5), 0 0 10px rgba(177, 149, 233, 0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: translate3d(0, -5px, 5px);
+        text-shadow: 0 0 10px rgba(177, 149, 233, 1), 0 0 20px rgba(177, 149, 233, 1);
+    }
+    100% {
+        opacity: 0.8;
+        transform: translate3d(0, 0, 0);
+        text-shadow: 0 0 5px rgba(177, 149, 233, 0.5), 0 0 10px rgba(177, 149, 233, 0.5);
+    }
 }
 
 @keyframes float {

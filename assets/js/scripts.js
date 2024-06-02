@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const logoTimeout = setTimeout(() => {
         const logoScreenElement = document.getElementById('logo-screen').style.display = 'flex';
-    }, 3000); 
+    }, 5000); 
 
     const logoClickHandler = () => {
         const logo = document.getElementById('logo');
-        logo.style.animation = 'scaleOut 0.6s forwards';
+        logo.style.animation = 'scaleOut 0.6s ';
 
-        document.body.style.transition = 'background-color 3s ease';
+        document.body.style.transition = 'background-color 0.6s ease';
         document.body.style.backgroundColor = '#000';
 
         setTimeout(() => {
