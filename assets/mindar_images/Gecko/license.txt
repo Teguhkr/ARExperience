@@ -1,0 +1,11 @@
+Model Information:
+* title:	Model 58A - House Gecko
+* source:	https://sketchfab.com/3d-models/model-58a-house-gecko-50eca44a12d84a39b500658f2f8d891e
+* author:	DigitalLife3D (https://sketchfab.com/DigitalLife3D)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Model 58A - House Gecko" (https://sketchfab.com/3d-models/model-58a-house-gecko-50eca44a12d84a39b500658f2f8d891e) by DigitalLife3D (https://sketchfab.com/DigitalLife3D) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
