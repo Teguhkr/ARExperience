@@ -42,7 +42,7 @@ Berikut adalah beberapa Dokumentasi dari Project ini:
 
 ## Link Demo
 
-Anda dapat melihat demo proyek ini dengan mengunjungi [link demo berikut](https://rizkipgt.github.io/AR-App).
+Anda dapat melihat demo proyek ini dengan mengunjungi [link demo berikut](https://teguhkr.github.io/ARExperience/).
 
 ## Kode QR
 
