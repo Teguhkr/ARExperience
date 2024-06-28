@@ -1,0 +1,11 @@
+Model Information:
+* title:	PBR Arcade Environment
+* source:	https://sketchfab.com/3d-models/pbr-arcade-environment-46e3a1cbc0894b898cbfb58e2ed0bd3f
+* author:	Kayla Hill (https://sketchfab.com/kaylahill)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PBR Arcade Environment" (https://sketchfab.com/3d-models/pbr-arcade-environment-46e3a1cbc0894b898cbfb58e2ed0bd3f) by Kayla Hill (https://sketchfab.com/kaylahill) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

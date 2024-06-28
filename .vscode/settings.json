@@ -1,0 +1,7 @@
+{
+    "html-to-css-autocompletion.autocompletionFilesScope": "multi-root",
+    "css.enabledLanguages": [
+        "html"
+    ],
+    "liveServer.settings.port": 5501
+}

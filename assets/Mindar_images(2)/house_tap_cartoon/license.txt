@@ -1,0 +1,11 @@
+Model Information:
+* title:	House_Tap_Cartoon
+* source:	https://sketchfab.com/3d-models/house-tap-cartoon-8a72da49069d468891ef787baf361489
+* author:	Cyril Limoges Athiel (https://sketchfab.com/athiel)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "House_Tap_Cartoon" (https://sketchfab.com/3d-models/house-tap-cartoon-8a72da49069d468891ef787baf361489) by Cyril Limoges Athiel (https://sketchfab.com/athiel) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
