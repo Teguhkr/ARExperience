@@ -49,7 +49,7 @@ Anda dapat melihat demo proyek ini dengan mengunjungi [link demo berikut](https:
 Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda:
 
 <p align="center">
-  <img src="img/qrAR.png" alt="QR Code" width="200">
+  <img src="/assets/img/QR-Code_AR1.png" alt="QR Code" width="200">
 </p>
 
 ## Instalasi
