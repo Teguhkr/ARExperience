@@ -1,14 +1,31 @@
-# Project Augmented Reality
-
 <p align="center">
-  <img src="/assets/img/AR2.png" alt="Project Logo" width="200">
+  <a href="https://github.com/Teguhkr/ARExperience">
+  <img src="/assets/img/AR2.png" alt="Project Logo" width="450">
+  </a>
 </p>
 
-Selamat datang di repository proyek Augmented Reality! Ini adalah Image Tracking, salah satu teknik kunci dalam teknologi AR. Teknik ini memungkinkan perangkat AR untuk mengenali dan melacak gambar tertentu di dunia nyata, kemudian menambahkan elemen digital di atas gambar tersebut. Dengan Image Tracking, perangkat AR dapat mendeteksi pola atau fitur unik dari gambar yang telah diprogram sebelumnya, memproses informasi tersebut, dan menambahkan konten digital secara akurat di lokasi yang tepat.
+## Table of Contents
 
-## Demo Video
+- [Introduction](#ARExperience)
+- [Demo](#features)
+- [Site](#feedback)
+- [Live View](#backers-)
+- [QRcode](#contributors)
+- [Instalation](#build-process)
 
-Tonton video demo di bawah ini untuk melihat bagaimana proyek ini bekerja:
+# ARExperience
+<table>
+<tr>
+<td>
+  ARExperience is a platform showcasing interactive augmented reality (AR) projects, providing a glimpse into innovative AR applications through various demos and examples. This website is designed to offer an immersive experience in the world of AR, inspiring and educating users about the potential of AR in various industries and everyday use. With a diverse collection of demos, ARExperience helps users better understand AR concepts, expand their imagination, and encourage further exploration in the development of this technology.
+</td>
+</tr>
+</table>
+
+
+## Demo
+
+Watch a demo of the project:
 
 <p align="center">
   <a href="https://youtu.be/gs1WgYR2Ji8">
@@ -16,33 +33,29 @@ Tonton video demo di bawah ini untuk melihat bagaimana proyek ini bekerja:
   </a>
 </p>
 
-## Dokumentasi
 
-Berikut adalah beberapa Dokumentasi dari Project ini:
+## Site
 
-### Dokumentasi 1
-<p align="center">
-  <img src="img/tutor1.jpg" alt="Homepage" width="600">
-</p>
+### Home
+![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
 
-### Dokumentasi 2
-<p align="center">
-  <img src="img/tutor2.jpg" alt="Feature A" width="600">
-</p>
+### About
+![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
 
-### Dokumentasi 3
-<p align="center">
-  <img src="img/tutor3.jpg" alt="Feature B" width="600">
-</p>
+### Usages
+![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
 
-### Dokumentasi 4
-<p align="center">
-  <img src="img/tutor4.jpg" alt="Feature C" width="600">
-</p>
+### Markers
+![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
 
-## Link Demo
+### Camera
+![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
 
-Anda dapat melihat demo proyek ini dengan mengunjungi [link demo berikut](https://teguhkr.github.io/ARExperience/).
+
+## Live View
+
+You can view the live version of this project by visiting the following link: [Live View of the Project](https://teguhkr.github.io/ARExperience/).
+
 
 ## Kode QR
 
@@ -52,7 +65,8 @@ Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda
   <img src="/assets/img/QR.png" alt="QR Code" width="200">
 </p>
 
-## Instalasi
+
+## Instalation
 
 Ikuti langkah-langkah di bawah ini untuk menginstal proyek ini di mesin lokal Anda.
 
