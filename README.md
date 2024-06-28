@@ -57,7 +57,7 @@ Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda
 Ikuti langkah-langkah di bawah ini untuk menginstal proyek ini di mesin lokal Anda.
 
 ```bash
-[git clone https://github.com/Teguhkr/ARExperience.git
+git clone https://github.com/Teguhkr/ARExperience.git
 cd ARExperience
 npm install
 npm start
