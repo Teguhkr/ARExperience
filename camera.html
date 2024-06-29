@@ -107,9 +107,9 @@
   <a href="dashboard.html" class="btn btn-pink home">Back</a>
     <div class="nav__logo" id="test">ARExperience</div>
 
-  <a-scene mindar-image="imageTargetSrc: ./assets/mindar_images/Targets.mind; maxTrack: 12" color-space="sRGB"
-    renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
-    device-orientation-permission-ui="enabled: false">
+    <a-scene
+    mindar-image="imageTargetSrc: ./assets/mindar_images/Targets.mind; maxTrack: 12" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+   
     <a-assets>
       <a-asset-item id="model1" src="./assets/mindar_images/Ant/scene.gltf"></a-asset-item>
       <a-asset-item id="model2" src="./assets/mindar_images/Bird/scene.gltf"></a-asset-item>
@@ -122,7 +122,12 @@
       <a-asset-item id="model9" src="./assets/mindar_images/Gecko/scene.gltf"></a-asset-item>
       <a-asset-item id="model10" src="./assets/mindar_images/Rhino/scene.gltf"></a-asset-item>
       <a-asset-item id="model11" src="./assets/mindar_images/Sturgeon/scene.gltf"></a-asset-item>
-      <a-asset-item id="model12" src="./assets/mindar_images/Whale/scene.gltf"></a-asset-item>     <a-entity mindar-image-target="targetIndex: 0">
+      <a-asset-item id="model12" src="./assets/mindar_images/Whale/scene.gltf"></a-asset-item>
+    </a-assets>
+
+    <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+    
+    <a-entity mindar-image-target="targetIndex: 0">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_1.png"></a-plane>
       <a-gltf-model rotation="90 0 0 " position="0 -0.1 0.4" scale="0.5 0.5 0.5" src="#model1"
         animation-mixer></a-gltf-model>
