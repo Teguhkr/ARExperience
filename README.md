@@ -37,19 +37,19 @@ Watch a demo of the project:
 ## Site
 
 ### Home
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
+![](https://teguhkr.github.io/ARExperience/assets/img/Home.png)
 
 ### About
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
+![](https://teguhkr.github.io/ARExperience/assets/img/Profile.png)
 
 ### Usages
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
+![](https://teguhkr.github.io/ARExperience/assets/img/Usages.png)
 
 ### Markers
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
+![](https://teguhkr.github.io/ARExperience/assets/img/Markers.png)
 
 ### Camera
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
+![](https://teguhkr.github.io/ARExperience/assets/img/Cameras.png)
 
 
 ## Live View
