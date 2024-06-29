@@ -49,7 +49,7 @@ Watch a demo of the project:
 ![](https://teguhkr.github.io/ARExperience/assets/img/Markers.png)
 
 ### Camera
-![](https://teguhkr.github.io/ARExperience/assets/img/Cameras.png)
+![](https://teguhkr.github.io/ARExperience/assets/img/cameras.png)
 
 
 ## Live View
