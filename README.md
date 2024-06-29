@@ -7,11 +7,11 @@
 ## Table of Contents
 
 - [Introduction](#ARExperience)
-- [Demo](#features)
-- [Site](#feedback)
-- [Live View](#backers-)
-- [QRcode](#contributors)
-- [Instalation](#build-process)
+- [Demo](#Demo)
+- [Site](#Site)
+- [Live View](#Live-View)
+- [QRcode](#QRcode)
+- [Instalation](#Instalation)
 
 # ARExperience
 <table>
@@ -57,7 +57,7 @@ Watch a demo of the project:
 You can view the live version of this project by visiting the following link: [Live View of the Project](https://teguhkr.github.io/ARExperience/).
 
 
-## Kode QR
+## QRcode
 
 Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda:
 
