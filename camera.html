@@ -107,89 +107,97 @@
   <a href="dashboard.html" class="btn btn-pink home">Back</a>
     <div class="nav__logo" id="test">ARExperience</div>
 
-  <a-scene mindar-image="imageTargetSrc: ./assets/mindar_images/targets2.mind; maxTrack: 12" color-space="sRGB"
-    renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
-    device-orientation-permission-ui="enabled: false">
+    <a-scene mindar-image="imageTargetSrc: ./assets/mindar_images/TargetsOld.mind; maxTrack: 12" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+   
     <a-assets>
-      <a-asset-item id="model1" src="./assets/Mindar_images(2)/house_tap_cartoon/scene.gltf"></a-asset-item>
-      <a-asset-item id="model2" src="./assets/Mindar_images(2)/boilers/scene.gltf"></a-asset-item>
-      <a-asset-item id="model3" src="./assets/Mindar_images(2)/steamy_fruit_shop_-_dae_bazaar/scene.gltf"></a-asset-item>
-      <a-asset-item id="model4" src="./assets/Mindar_images(2)/pbr_arcade_environment/scene.gltf"></a-asset-item>
-      <a-asset-item id="model5" src="./assets/Mindar_images(2)/little_house_game_ready/scene.gltf"></a-asset-item>
-      <a-asset-item id="model6" src="./assets/Mindar_images(2)/teascroll_clubhouse_scene/scene.gltf"></a-asset-item>
-      <a-asset-item id="model7" src="./assets/Mindar_images(2)/sketchfab_3d_editor_challenge_littlest_tokyo/scene.gltf"></a-asset-item>
-      <a-asset-item id="model8" src="./assets/Mindar_images(2)/le_tonneau_tavern/scene.gltf"></a-asset-item>
-      <a-asset-item id="model9" src="./assets/Mindar_images(2)/the_house_lost_at_sea/scene.gltf"></a-asset-item>
-      <a-asset-item id="model10" src="./assets/Mindar_images(2)/windmill_game_ready/scene.gltf"></a-asset-item>
-      <a-asset-item id="model11" src="./assets/Mindar_images(2)/terem/scene.gltf"></a-asset-item>
+      <a-asset-item id="model1" src="./assets/mindar_images/Ant/scene.gltf"></a-asset-item>
+      <a-asset-item id="model2" src="./assets/mindar_images/Bird/scene.gltf"></a-asset-item>
+      <a-asset-item id="model3" src="./assets/mindar_images/Caterpillar/scene.gltf"></a-asset-item>
+      <a-asset-item id="model4" src="./assets/mindar_images/Cat/scene.gltf"></a-asset-item>
+      <a-asset-item id="model5" src="./assets/mindar_images/Crab/scene.gltf"></a-asset-item>
+      <a-asset-item id="model6" src="./assets/mindar_images/Crocodile/scene.gltf"></a-asset-item>
+      <a-asset-item id="model7" src="./assets/mindar_images/Goldfish/scene.gltf"></a-asset-item>
+      <a-asset-item id="model8" src="./assets/mindar_images/Crow/scene.gltf"></a-asset-item>
+      <a-asset-item id="model9" src="./assets/mindar_images/Gecko/scene.gltf"></a-asset-item>
+      <a-asset-item id="model10" src="./assets/mindar_images/Rhino/scene.gltf"></a-asset-item>
+      <a-asset-item id="model11" src="./assets/mindar_images/Sturgeon/scene.gltf"></a-asset-item>
+      <a-asset-item id="model12" src="./assets/mindar_images/Whale/scene.gltf"></a-asset-item>
     </a-assets>
-    <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
+    <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+    
     <a-entity mindar-image-target="targetIndex: 0">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_1.png"></a-plane>
-      <a-gltf-model rotation="90 0 0 " position="0.2 -0.12 0.45" scale="0.02 0.02 0.02" src="#model1" animation-mixer></a-gltf-model>
-        <a-text value="House Cartoon" align="center" position="0 -0.6 0" scale="0.5 0.5 0.5" color="#FFFFFF"></a-text>
-        <a-text value="Augmented Reality" align="center" position="0 0.6 0" scale="0.5 0.5 0.5" color="#FFFFFF"></a-text> 
+      <a-gltf-model rotation="90 0 0 " position="0 -0.1 0.4" scale="0.5 0.5 0.5" src="#model1"
+        animation-mixer></a-gltf-model>
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 1">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_2.png"></a-plane>
-      <a-gltf-model rotation="90 0 0 " position="0.5 0.2 0.25" scale="0.11 0.11 0.11" src="#model2" animation-mixer></a-gltf-model>
-      <a-text id="Boilers" align="center" position="0 -0.6 0" scale="0.5 0.5 0.5" color="#FFFFFF"></a-text>
-        <a-text value="Augmented Reality" align="center" position="0 0.6 0" scale="0.5 0.5 0.5" color="#FFFFFF"></a-text> 
+      <a-gltf-model rotation="90 0 0 " position="0 0 0.2" scale="0.5 0.5 0.5" src="#model2"
+        animation-mixer></a-gltf-model>
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 2">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_3.png"></a-plane>
-      <a-gltf-model rotation="90 0 0 " position="0 -0.1 0.2" scale="0.08 0.08 0.08" src="#model3" animation-mixer></a-gltf-model>
+      <a-gltf-model rotation="90 0 0 " position="0 -0.2 0.2" scale="0.04 0.04 0.04" src="#model3"
+        animation-mixer></a-gltf-model>
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 3">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_4.png"></a-plane>
-      <a-gltf-model rotation="90 0 0 " position="0.1 0 0.2" scale="0.003 0.003 0.003" src="#model4" animation-mixer></a-gltf-model>
+      <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.35 0.35 0.35" src="#model4"
+        animation-mixer></a-gltf-model>
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 4">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_5.png"></a-plane>
-      <a-gltf-model rotation="90 0 0 " position="0 0 0.2" scale="5 5 5" src="#model5" animation-mixer></a-gltf-model>
+      <a-gltf-model rotation="90 0 0 " position="0 0 0.2" scale="0.07 0.07 0.07" src="#model5" animation-mixer></a-gltf-model>
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 5">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_6.png"></a-plane>
-      <a-gltf-model rotation="90 0 0 " position="0 0 0.1" scale="0.08 0.08 0.08" src="#model6"
+      <a-gltf-model rotation="90 0 0 " position="0 0 0.2" scale="0.1 0.1 0.1" src="#model6"
         animation-mixer></a-gltf-model>
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 6">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_7.png"></a-plane>
-      <a-gltf-model rotation="90 0 0 " position="0.1 -0.04 0.5" scale="0.0016 0.0016 0.0016" src="#model7"
+      <a-gltf-model rotation="90 0 0 " position="0 -0.2 0.5" scale="0.03 0.03 0.03" src="#model7"
         animation-mixer></a-gltf-model>
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 7">
-      <a-gltf-model rotation="90 0 0 " position="0 0.1 0.7" scale="90 90 90" src="#model8" animation-mixer></a-gltf-model>
+      <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_8.png"></a-plane>
+      <a-gltf-model rotation="90 0 0 " position="0 0.1 0" scale="2 2 2" src="#model8" animation-mixer></a-gltf-model>
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 8">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_9.png"></a-plane>
-      <a-gltf-model rotation="90 0 0 " position="0 0.2 0" scale="0.05 0.05 0.05" src="#model9"
+      <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="8 8 8" src="#model9"
         animation-mixer></a-gltf-model>
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 9">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_10.png"></a-plane>
-      <a-gltf-model rotation="90 0 0 " position="0 0.2 0" scale="20 20 20" src="#model10"
+      <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.2 0.2 0.2" src="#model10"
         animation-mixer></a-gltf-model>
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 10">
       <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_11.png"></a-plane>
-      <a-gltf-model rotation="90 0 0 " position="0 0 0.2" scale="0.1 0.1 0.1" src="#model11"
+      <a-gltf-model rotation="90 0 0 " position="0 0 0.2" scale="3 3 3" src="#model11"
+        animation-mixer></a-gltf-model>
+    </a-entity>
+
+    <a-entity mindar-image-target="targetIndex: 11">
+      <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/plane-images/plane_12.png"></a-plane>
+      <a-gltf-model rotation="90 0 0 " position="0 0 0.2" scale="0.0006 0.0006 0.0006" src="#model12"
         animation-mixer></a-gltf-model>
     </a-entity>
   </a-scene>
 
-  <!-- <div class="watermark">rizkipgt</div> -->
+
   <!--=============== MAIN JS ===============-->
   <script src="./assets/js/main.js"></script>
 </body>
