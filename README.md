@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Teguhkr/ARExperience">
+  <a id="top" href="https://github.com/Teguhkr/ARExperience">
   <img src="/assets/img/AR2.png" alt="Project Logo" width="450">
   </a>
 </p>
@@ -89,4 +89,4 @@ Teguh Karya Rizki
 [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/teguhk23_)
 
 
-<p align="right">(<a href="#ARExperience">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
