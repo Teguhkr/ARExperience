@@ -59,7 +59,7 @@ You can view the live version of this project by visiting the following link: [L
 
 ## QRcode
 
-Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda:
+Scan the QR code below to visit our project:
 
 <p align="center">
   <img src="/assets/img/QR.png" alt="QR Code" width="200">
@@ -68,7 +68,7 @@ Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda
 
 ## Instalation
 
-Ikuti langkah-langkah di bawah ini untuk menginstal proyek ini di mesin lokal Anda.
+Follow these steps to set up and run the project locally:
 
 ```bash
 git clone https://github.com/Teguhkr/ARExperience.git
@@ -77,4 +77,16 @@ npm install
 npm start
 ```
 ##
-Terima kasih telah menggunakan Proyek in! Jangan lupa untuk memberikan ⭐ jika Anda menyukai proyek ini!
+Thank you for using my project! I hope it helps you achieve your goals and enhances your development experience. If you have any questions, feedback, or run into any issues, please don't hesitate to reach out. :star: Star it if you like it!
+
+
+### Connect with Me
+Teguh Karya Rizki
+
+[![Email Badge](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:teguhk356@gmail.com)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Teguhkr)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/teguh-karya-rizki/)
+[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/teguhk23_)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
